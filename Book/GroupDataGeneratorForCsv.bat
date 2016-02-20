@@ -1,0 +1,1 @@
+java -classpath ./bin com.example.tests.GroupDataGenerator 10 groups.txt csv

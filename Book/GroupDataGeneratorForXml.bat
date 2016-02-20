@@ -1,0 +1,1 @@
+java -classpath ./bin;c:\Users\Nata\Documents\selenium_java_programming\software\xstream-1.4.8\lib\xstream-1.4.8.jar;c:\Users\Nata\Documents\selenium_java_programming\software\xstream-1.4.8\lib\xstream\xpp3_min-1.1.4c.jar com.example.tests.GroupDataGenerator 10 groups.xml xml

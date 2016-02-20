@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" preserve-order="true">
+  <test verbose="2" name="Default test">
+    <classes>
+    <class name="com.example.tests.GroupCreationTests"/>
+    <class name="com.example.tests.GroupModificationTests"/>
+    <class name="com.example.tests.GroupRemovalTests"/>
+      <class name="com.example.fw.HelperBase"/>
+      <class name="com.example.fw.NavigationHelper"/>
+      <class name="com.example.tests.GroupDataGenerator"/>
+      <class name="com.example.fw.ApplicationManager"/>
+      <class name="com.example.fw.GroupHelper"/>
+      <class name="com.example.tests.GroupData"/>
+      
+      <class name="com.example.tests.TestBase"/>
+      
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
